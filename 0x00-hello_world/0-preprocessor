@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# C file name
+CFILE="your_c_file.c"
+
+# Output file name
+OUTPUT_FILE="c"
+
+# Run C file through preprocessor and save the result
+cpp -P "$CFILE" -o "$OUTPUT_FILE"
